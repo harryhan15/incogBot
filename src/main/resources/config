@@ -1,0 +1,32 @@
+#Incognito Bot Properties
+
+#LIMIT - The number of posts to parse
+#0 = 25 (DEFAULT)
+#1 = 50
+#2 = 100
+limit=0
+
+#SUBREDDIT - The subreddits to parse
+#Example: pics+adviceanimals+whitepeoplegifs
+#reactiongifs(DEFAULT)
+subreddit=reactiongifs
+
+#BUILD - run the program on a test discord client or an actual discord client
+#0 = Test
+#1 = Real (DEFAULT)
+build=1
+
+#Test Text Channel IDs
+test_general=
+test_incognito=
+
+#Real Text Channel IDs
+real_general=
+real_incognito=
+
+#token - the token for the bot (ensure to keep this safe)
+token=
+
+#refresh - in milliseconds, how often to check the subreddits
+#360000 (DEFAULT)
+refresh=3600000
